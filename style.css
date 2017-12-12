@@ -1,0 +1,94 @@
+body {
+    background-color: #e1e1e1e1;
+    font-size: 16px;
+    font-family: "Dotum";
+    color: #666666;
+}
+
+a{
+    color:#337594;
+    text-decoration: none;
+
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 30px 20px;
+}
+
+header h1{
+    margin: 0;
+    color: black;
+}
+
+header h1 span{
+    color: red;
+}
+
+header p {
+    margin: 0;
+}
+
+#search-form {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#search-form .search-field{
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    color: #000;
+    font-size: 1.5em;
+
+    border: 1px solid #c9c9c9;
+}
+
+#search-form .search-btn{
+    margin-left: 10px;
+    padding: 10px;
+    height: 50px;
+    font-size: 1.5em;
+    background: skyblue;
+}
+
+.item-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item-list .item:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.item-list .item{
+    float: left;
+    margin-bottom: 30px;
+    /*border: 1px solid red;*/
+}
+
+.item-list .item .clear{
+    clear: both;
+}
+
+.item-list .item h3{
+    margin: 0;
+    font-size: 20px;
+    color: blue;
+}
+
+.item-list .item .image-wrapper{
+    float: left;
+}
+
+.item-list .item .image-wrapper img{
+    width: 100px;
+    border: 1px solid #ccc;
+}

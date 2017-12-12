@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>유투브 검색 만들기</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Search <span>Vidie</span></h1>
+            <p>Search all YouTube Vidios</p>
+        </header>
+
+        <button type="button" name="button">click</button>
+
+        <section>
+            <form id="search-form" method="get" action="">
+                <div class="formwrapper">
+                    <input type="search" id="query" name="query" class="search-field" placeholder="Search">
+                    <input type="submit" name="search-btn" class="search-btn" value="검색">
+                </div>
+            </form>
+
+            <ul id="results" class="item-list">
+              
+            </ul>
+
+        </section>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="youtube-search.js" charset="utf-8"></script>
+</body>
+</html>
